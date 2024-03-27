@@ -3,7 +3,7 @@
 
 
 #install everyting
-sudo apt update && upgrade
+sudo apt update
 sudo apt install ufw
 ufw allow 21115:21119/tcp
 ufw allow 8000/tcp
