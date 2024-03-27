@@ -5,6 +5,7 @@
 #install everyting
 sudo apt update
 sudo apt install ufw
+sudo su
 ufw allow 21115:21119/tcp
 ufw allow 8000/tcp
 ufw allow 21116/udp
