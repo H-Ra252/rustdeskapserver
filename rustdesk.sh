@@ -21,4 +21,4 @@ cat ./id_ed25519.pub
 
 #configure ngrok and start it
 ngrok config add-authtoken 2XFrlRXy7iQBYRoayFVOmT64Kdj_7LXWFgZAgmvpSj6mogedb 
-ngrok tcp 5900 --region=ap &
+ngrok http 8080=ap &
