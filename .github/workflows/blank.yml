@@ -1,4 +1,4 @@
-name: Ubuntu 23.04
+name: Ubuntu 23.204
 on: 
   workflow_dispatch:
 defaults:
